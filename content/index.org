@@ -1,4 +1,10 @@
 * Booker's Roam
+*** ---
+**** [[file:20220114075952-don_t_chase_the_side_product.org][Don't chase the side product]]
+*** ---
+**** The Motivation
+#+begin_quote
 "Even if you decide never to write a single line of a manuscript, you will improve your reading, thinking and other intellectual skills just by doing everything as if nothing counts other than writing."
 
 -- Sönke Ahrens
+#+end_quote
