@@ -1,3 +1,33 @@
+;; Initialize package sources
+(require 'package)
+
+;; Set the package installation directory so that packages aren't stored in the
+;; ~/.emacs.d/elpa path.
+(setq package-user-dir (expand-file-name "./.packages"))
+
+(setq package-archives '(("melpa" . "https://melpa.org/packages/")
+                         ("melpa-stable" . "https://stable.melpa.org/packages/")
+                         ("elpa" . "https://elpa.gnu.org/packages/")))
+
+;; Initialize the package system
+(package-initialize)
+(unless package-archive-contents
+  (package-refresh-contents))
+(setq use-package-always-ensure t)
+
+;; Install use-package
+(unless (package-installed-p 'use-package)
+  (package-install 'use-package))
+(require 'use-package)
+
+;; Install other dependencies
+(use-package ox-reveal
+;; Exports Org-mode contents to Reveal.js HTML presentation
+  :custom
+        (org-reveal-root "https://cdn.jsdelivr.net/npm/reveal.js")
+  )
+
+
 ;; Load the publishing system
 (require 'ox-publish)
 
@@ -35,6 +65,12 @@
              :with-toc nil              ;; Include a table of contents or not
              :section-numbers nil       ;; Don't include section numbers
              :time-stamp-file nil    	;; Don't include time stamp in file
+        )
+       (list "org-site:slides"
+             :recursive t
+             :base-directory "./content/slides"
+             :publishing-function 'org-reveal-publish-to-reveal
+             :publishing-directory "./public/slides"
         )
        )
 )
