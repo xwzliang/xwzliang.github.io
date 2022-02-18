@@ -1,7 +1,6 @@
 #+REVEAL_MULTIPLEX_ID: 2bbaa07bea40b9d1
 #+REVEAL_MULTIPLEX_SECRET: 16451729268908740469
 #+REVEAL_MULTIPLEX_URL:  https://reveal-multiplex.glitch.me
-#+REVEAL_MULTIPLEX_SOCKETIO_URL: https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.4/socket.io.min.js
 #+REVEAL_PLUGINS: (multiplex)
 
 * test slide1
