@@ -16,14 +16,28 @@
       (list
        (list "org-site:main"
              :recursive t
-             :base-directory "./content"
+             :base-directory "./main"
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
              :with-author nil
              :with-creator nil          ;; Include Emacs and Org versions in footer or not
              :with-toc nil              ;; Include a table of contents or not
              :section-numbers nil       ;; Don't include section numbers
-             :time-stamp-file nil)))    ;; Don't include time stamp in file
+             :time-stamp-file nil    	;; Don't include time stamp in file
+        )
+       (list "org-site:articles"
+             :recursive t
+             :base-directory "./articles"
+             :publishing-function 'org-html-publish-to-html
+             :publishing-directory "./public/articles"
+             :with-author nil
+             :with-creator nil          ;; Include Emacs and Org versions in footer or not
+             :with-toc nil              ;; Include a table of contents or not
+             :section-numbers nil       ;; Don't include section numbers
+             :time-stamp-file nil    	;; Don't include time stamp in file
+        )
+       )
+)
 
 ;; Generate the site output
 (org-publish-all t)
