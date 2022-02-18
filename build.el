@@ -15,8 +15,8 @@
 (setq org-publish-project-alist
       (list
        (list "org-site:main"
-             :recursive t
-             :base-directory "./main"
+             :recursive nil
+             :base-directory "./content"
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
              :with-author nil
@@ -27,7 +27,7 @@
         )
        (list "org-site:articles"
              :recursive t
-             :base-directory "./articles"
+             :base-directory "./content/articles"
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public/articles"
              :with-author nil
