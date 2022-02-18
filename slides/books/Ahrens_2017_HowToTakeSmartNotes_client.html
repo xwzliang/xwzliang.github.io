@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'https://cdn.jsdelivr.net/npm/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+
+<link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><p class="date">Created: 2022-02-18 Fri 11:27</p>
+</section>
+<section id="sec-table-of-contents"><div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-org0871678">1. test slide1</a></li>
+<li><a href="#/slide-org0fe18ab">2. test slide2</a></li>
+<li><a href="#/slide-orgbda9b79">3. test slide3</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+<section>
+<section id="slide-org0871678">
+<h2 id="org0871678"><span class="section-number-2">1</span> test slide1</h2>
+<p>
+content
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org0fe18ab">
+<h2 id="org0fe18ab"><span class="section-number-2">2</span> test slide2</h2>
+<ul>
+<li>list1</li>
+<li>list2
+content</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgbda9b79">
+<h2 id="orgbda9b79"><span class="section-number-2">3</span> test slide3</h2>
+<p>
+The challenge is to structure one’s workflow in a way that insight and new ideas can become the driving forces that push us forward
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+multiplex: {
+    secret: null, // null if client
+    id: '2bbaa07bea40b9d1', // id, obtained from socket.io server
+    url: 'https://reveal-multiplex.glitch.me' // Location of socket.io server
+},
+dependencies: [ { src: 'https://reveal-multiplex.glitch.me/socket.io/socket.io.js', async: true }, { src: 'https://reveal-multiplex.glitch.me/client.js', async: true } ],
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'http://cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.10/socket.io.min.js', async: true },
+ { src: 'https://cdn.jsdelivr.net/npm/reveal.js/plugin/multiplex/client.js', async: true }]
+
+});
+
+</script>
+</body>
+</html>
