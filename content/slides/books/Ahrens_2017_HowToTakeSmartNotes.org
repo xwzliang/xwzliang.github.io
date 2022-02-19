@@ -1,12 +1,10 @@
-# #+REVEAL_VERSION: 4
-# #+REVEAL_ROOT: http://localhost:1948
-# #+REVEAL_MULTIPLEX_ID: f1db09be60812eae
-# #+REVEAL_MULTIPLEX_SECRET: 16451953942853689381
-# #+REVEAL_MULTIPLEX_URL:  http://localhost:1948
+#+REVEAL_VERSION: 4
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_MULTIPLEX_ID: ca34b7cf247718be
+#+REVEAL_MULTIPLEX_SECRET: 16452837730484377321
+#+REVEAL_MULTIPLEX_URL:  https://reveal-multiplex.glitch.me
 # #+REVEAL_MULTIPLEX_SOCKETIO_URL: http://localhost:1948/socket.io/socket.io.js
-# #+REVEAL_PLUGINS: (multiplex)
-
-# https://cdn.socket.io/4.4.1/socket.io.js
+#+REVEAL_PLUGINS: (multiplex)
 
 #+OPTIONS: timestamp:nil toc:1 num:t
 
