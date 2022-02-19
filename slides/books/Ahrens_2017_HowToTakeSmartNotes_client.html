@@ -251,11 +251,11 @@ You are teaching your slip-box &#x2013; your second brain
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
 multiplex: {
-    secret: '16452837730484377321', // null if client
+    secret: null, // null if client
     id: 'ca34b7cf247718be', // id, obtained from socket.io server
     url: 'https://reveal-multiplex.glitch.me' // Location of socket.io server
 },
-dependencies: [ { src: 'https://reveal-multiplex.glitch.me/socket.io/socket.io.js', async: true }, { src: 'https://reveal-multiplex.glitch.me/master.js', async: true } ]
+dependencies: [ { src: 'https://reveal-multiplex.glitch.me/socket.io/socket.io.js', async: true }, { src: 'https://reveal-multiplex.glitch.me/client.js', async: true } ]
 });
 
 </script>
