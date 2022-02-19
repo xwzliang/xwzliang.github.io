@@ -71,6 +71,7 @@
              :base-directory "./content/slides"
              :publishing-function 'org-reveal-publish-to-reveal
              :publishing-directory "./public/slides"
+             :html-head nil
         )
        )
 )
