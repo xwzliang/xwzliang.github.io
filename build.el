@@ -26,6 +26,7 @@
   :custom
         (org-reveal-root "https://cdn.jsdelivr.net/npm/reveal.js")
         (org-reveal-hlevel 2)
+        (org-reveal-reveal-js-version 4)
   )
 
 
