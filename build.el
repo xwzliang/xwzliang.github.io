@@ -25,6 +25,7 @@
 ;; Exports Org-mode contents to Reveal.js HTML presentation
   :custom
         (org-reveal-root "https://cdn.jsdelivr.net/npm/reveal.js")
+        (org-reveal-hlevel 2)
   )
 
 

@@ -1,14 +1,96 @@
-#+REVEAL_MULTIPLEX_ID: 2bbaa07bea40b9d1
-#+REVEAL_MULTIPLEX_SECRET: 16451729268908740469
-#+REVEAL_MULTIPLEX_URL:  https://reveal-multiplex.glitch.me
-#+REVEAL_MULTIPLEX_SOCKETIO_URL: https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.4/socket.io.min.js
-#+REVEAL_PLUGINS: (multiplex)
+# #+REVEAL_VERSION: 4
+# #+REVEAL_ROOT: http://localhost:1948
+# #+REVEAL_MULTIPLEX_ID: f1db09be60812eae
+# #+REVEAL_MULTIPLEX_SECRET: 16451953942853689381
+# #+REVEAL_MULTIPLEX_URL:  http://localhost:1948
+# #+REVEAL_MULTIPLEX_SOCKETIO_URL: http://localhost:1948/socket.io/socket.io.js
+# #+REVEAL_PLUGINS: (multiplex)
 
-* test slide1
-content
-* test slide2
-- list1
-- list2
-  content
-* test slide3
-The challenge is to structure one’s workflow in a way that insight and new ideas can become the driving forces that push us forward
+# https://cdn.socket.io/4.4.1/socket.io.js
+
+#+OPTIONS: timestamp:nil toc:1 num:t
+
+#+TITLE: How to take smart notes
+#+AUTHOR: Sönke Ahrens
+
+* Who: The Inventor
+Nicolas Luhmann
+#+REVEAL_HTML: <div style="font-size: 70%;">
+#+ATTR_REVEAL: :frag (appear)
+- Major in law
+- Interested in philosophy, organizational theory and sociology
+- Professor of sociology in university
+- 30 years: published 58 high-quality books and hundreds of articles, translations not included
+- He constantly generated more ideas than he was able to write down
+- He raised three children on his own after his wife died early
+- He never forced himself to do something he didn’t feel like
+- Researchers concluded his productivity could only be explained by his unique working technique
+
+* What: The Manual of Slip-box Method
+#+REVEAL_HTML: <div style="font-size: 70%;">
+#+ATTR_REVEAL: :frag (appear)
+- Two slip-boxes:
+  - Bibliographical: references and brief notes
+  - Main: ideas he collected and generated, mainly in response to what he read
+- One note, one idea, one card
+- Full sentences and with explicit references (write with great care)
+- Link between notes: Rarely would a note stay in isolation
+- Not copy, but a translation in his own words
+- Organize notes not by topic, but give each note card a unique ID
+- A topic is just another note with links in it (developed bottom up)
+- Index referred to some entry points (notes with sorted collection of links)
+  - Not necessary in electronic version in my opinion
+
+* Everything You Need to Have
+** Something to write with and something to write on
+ - pen and paper, keyboard and computer, etc
+ - Capture fleeting notes
+ - it should not require any thoughts, attention or multiple steps to write it down
+** A reference management system
+ - To collect the references
+ - To collect the notes you take during your reading (literature notes)
+ - Zotero (free), Emacs ebib (free, steep learning curve)
+** The slip-box
+ - old-fashioned pen and paper version in a wooden box is fine
+ - digital version (recommended)
+   - helpful with adding links and formatting references
+   - powerful searching ability
+   - mobility
+   - Roam Research (expensive), Obsidian (free), Emacs org-roam (free, steep learning curve)
+** An editor
+- Microsoft Word, Emacs, etc
+- Modern slip-box software already included
+
+* Demo With Some Key Takeaways
+#+ATTR_REVEAL: :frag (appear)
+- Creating by searching: A really powerful way of reviewing notes
+- Syntopic Reading: highest level of reading in the book <How to Read A Book>
+
+* Why: The Importance of A Good Noting System
+** The right mindset and the right external tool are equally important
+- Even best driver cannot perform his driving technique if he is stuck on rails
+** Brain friendly
+- present you with ideas you have already forgotten
+- Brain is not good at storing information exactly
+- Don't need to waste mental energy to think about where to put notes, in what format
+** Focused Attention
+- the Zeigarnik effect: Open tasks tend to occupy our short-term memory – until they are done
+- We can avoid distraction of unfinished tasks by writing them down
+- The secret to have a “mind like water” is to get all the little stuff out of our shortterm memory
+** Instant feedback loops
+- growth mindset: To actively seek and welcome feedback, be it positive or negative, not avoiding it
+** Ideas, new structure, new insight will emerge in a surprising way
+- Connections
+- Normal folder structure is rigid
+** Teaching is a powerful way of learning (Feynman Technique)
+You are teaching your slip-box -- your second brain
+** Slip-box is fun to work with
+- No need of strong will power
+** Writing a paper, an article or even a book becomes super easy
+- a good paper
+- a good draft
+- a series of notes
+- rearrangement of notes
+- take smart notes when you read
+** To summarize:
+*We need a reliable and simple external structure to think in that compensates for the limitations of our brains*
