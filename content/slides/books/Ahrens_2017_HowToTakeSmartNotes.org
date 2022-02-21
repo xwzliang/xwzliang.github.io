@@ -10,7 +10,7 @@
 #+AUTHOR: Sönke Ahrens
 
 * Who: The Inventor
-Nicolas Luhmann
+Niklas Luhmann
 #+REVEAL_HTML: <div style="font-size: 70%;">
 #+ATTR_REVEAL: :frag (appear)
 - Major in law
