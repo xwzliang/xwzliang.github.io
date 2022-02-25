@@ -29,18 +29,18 @@ Niklas Luhmann
   - Bibliographical: references and brief notes
   - Main: ideas he collected and generated, mainly in response to what he read
 - One note, one idea, one card
-- Full sentences and with explicit references (write with great care)
-- Link between notes: Rarely would a note stay in isolation
-- Not copy, but a translation in his own words
 - Organize notes not by topic, but give each note card a unique ID
+- Link between notes: Rarely would a note stay in isolation
 - A topic is just another note with links in it (developed bottom up)
+- Not copy, but a translation in his own words
+- Full sentences and with explicit references (write with great care)
 - Index referred to some entry points (notes with sorted collection of links)
   - Not necessary in electronic version in my opinion
 
 * Everything You Need to Have
 ** Something to write with and something to write on
+ - Capture fleeting notes (reminder of a thought)
  - pen and paper, keyboard and computer, etc
- - Capture fleeting notes
  - it should not require any thoughts, attention or multiple steps to write it down
 ** A reference management system
  - To collect the references
@@ -76,7 +76,7 @@ Niklas Luhmann
 ** Instant feedback loops
 - growth mindset: To actively seek and welcome feedback, be it positive or negative, not avoiding it
 ** Ideas, new structure, new insight will emerge in a surprising way
-- Connections
+- Connections, slip-box is all about building meaningful connections between notes. In our brain, things we understand are things connected
 - Normal folder structure is rigid
 ** Teaching is a powerful way of learning (Feynman Technique)
 You are teaching your slip-box -- your second brain
