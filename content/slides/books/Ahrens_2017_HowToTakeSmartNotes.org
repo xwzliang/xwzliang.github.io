@@ -9,6 +9,12 @@
 #+TITLE: How to take smart notes
 #+AUTHOR: Sönke Ahrens
 
+* Questions
+- Do you take notes while reading?
+- How do you take notes?
+- Is it important to take notes? How important?
+- That's the best way to take notes?
+
 * Who: The Inventor
 Niklas Luhmann
 #+REVEAL_HTML: <div style="font-size: 70%;">
